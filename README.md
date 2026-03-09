@@ -1,8 +1,8 @@
 ## BarPing
 
-Small software that allows you to have one or multiple little indicators in your taskbar, that shows if one or multiple of your network devices are online.
+Small software that allows you to have one or multiple little indicators in your taskbar, that shows if one or multiple of your network devices are online with pinging.
 
-You just give it a name and enter its FQDN / IP address, and it'll appear in the taskbar. Green = Online / Dark = Offline
+You just give it a name and enter its FQDN / IP address, and it'll appear in the taskbar. Green = Online (answers pings) / Dark = Offline (doesn't answer pings)
 
 - **you will need the following Python packages**: `pystray`, `Pillow`
 
